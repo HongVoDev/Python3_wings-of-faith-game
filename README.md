@@ -43,6 +43,6 @@ python main.py
 2. Follow the in-game instructions and make choices by interacting with the provided options.
 3. Enjoy your adventure and unravel the secrets of Vietnam while discovering the Christian God!
 
-## Screenshots + Demo Link
+## Screenshots
 [![Wings of Faith Demo](https://github.com/HongDavisDev/wings_of_faith_adventure/assets/151206744/f1011c3c-760e-40c1-882c-46da072ec0f8)](https://youtube.com/shorts/6coA5R8Kpd0?feature=share)
 

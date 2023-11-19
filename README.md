@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/downloads/)
 [![Pygame](https://img.shields.io/badge/Pygame-2.0.1-blue)](https://www.pygame.org/)
 
-Welcome to **Wings of Faith**, a captivating choose your own adventure game that takes you on a journey through Vietnam, where you will discover the power of faith and encounter the Christian God along the way.
+Welcome to **Wings of Faith**, a captivating choose your own adventure game that takes you on a journey to Vietnam, where you will discover the power of faith and encounter the Christian God along the way.
 
 ## Contents
 

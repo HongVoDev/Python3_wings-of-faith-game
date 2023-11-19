@@ -44,7 +44,5 @@ python main.py
 3. Enjoy your adventure and unravel the secrets of Vietnam while discovering the Christian God!
 
 ## Screenshots
-[![Wings of Faith Demo](<img width="370" alt="Game1" src="https://github.com/HongDavisDev/wings_of_faith_adventure/assets/151206744/f1011c3c-760e-40c1-882c-46da072ec0f8">
-)]([https://github.com/melqassas/](https://youtube.com/shorts/6coA5R8Kpd0?feature=share)https://youtube.com/shorts/6coA5R8Kpd0?feature=share)
-
+[![Wings of Faith Demo](https://github.com/HongDavisDev/wings_of_faith_adventure/assets/151206744/f1011c3c-760e-40c1-882c-46da072ec0f8)](https://youtube.com/shorts/6coA5R8Kpd0?feature=share)
 

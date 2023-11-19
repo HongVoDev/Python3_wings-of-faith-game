@@ -1,7 +1,7 @@
 from . import imagePathConstants as ipc
 
 """
-This module initializes the dict containing assets
+This module initializes the dictionary containing assets
 and texts relating to the sotryline
 """
 
@@ -11,7 +11,7 @@ story_dict = {
             + ' beverage, you notice a fellow passenger'\
             + ' reading a book titled "The Holy Bible."',\
         [2, 'You engage in a conversation about spirituality.', ipc.bg_1a],\
-        [9, 'You politely decline and immerse yourself in a book or a movie.', ipc.bg_1b]],\
+        [3, 'You politely decline and immerse yourself in a book or a movie.', ipc.bg_1b]],\
     
     2: [ipc.bg_2, 'The fellow passenger, John, starts sharing stories of his spiritual journey.',\
         [4, 'You listen attentively and ask thought-provoking questions.', ipc.bg_2a],\

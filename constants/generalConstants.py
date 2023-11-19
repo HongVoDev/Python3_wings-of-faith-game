@@ -1,7 +1,6 @@
 
 """
-This module initializes the display and creates dictionaries of resources.
-Also contained are various constants used throughout the program.
+This module specifies various constants used throughout the program.
 """
 
 # ----------Numbers and Metrics----------
@@ -18,12 +17,6 @@ TEXTBOX_POS = (5, 345)
 # ----------String----------
 
 MONOSPACE = 'monospace'
-
-
-# ----------Story Text----------
-TEXTBOX_1 = 'As the flight attendant offers you a'\
-            + ' beverage, you notice a fellow passenger'\
-            + ' reading a book titled "The Holy Bible."'
 
 # ----------Colors (R, G , B)----------
 

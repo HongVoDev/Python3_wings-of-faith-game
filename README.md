@@ -14,7 +14,7 @@ Welcome to **Wings of Faith**, a captivating choose your own adventure game that
 
 ## Description
 
-**Wings of Faith** is a Python-based game that utilizes the **Pygame** libraries and modules to deliver an immersive choose your own adventure experience. As you travel through Vietnam, you will encounter various challenges, make choices, and ultimately discover the Christian God. The game combines storytelling, interactive decision-making, and captivating visuals to provide a unique gaming experience.
+**Wings of Faith** is a short Python-based game that utilizes the **Pygame** libraries and modules to deliver an immersive choose your own adventure experience. As you travel to Vietnam, you will encounter various challenges, make choices, and ultimately discover the Christian God. The game combines storytelling, interactive decision-making, and visuals to provide a unique gaming experience.
 
 ## Installation
 

@@ -11,8 +11,6 @@ Welcome to **Wings of Faith**, a captivating choose your own adventure game that
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
@@ -47,4 +45,7 @@ python scene.py
 
 <a href="https://youtube.com/shorts/6coA5R8Kpd0?feature=share"><img src="https://github.com/HongDavisDev/wings_of_faith_adventure/assets/151206744/f1011c3c-760e-40c1-882c-46da072ec0f8)https://github.com/HongDavisDev/wings_of_faith_adventure/assets/151206744/f1011c3c-760e-40c1-882c-46da072ec0f8" align="left" width=30% height=30% ></a>
 <a href="https://youtube.com/shorts/6coA5R8Kpd0?feature=share"><img src="https://github.com/HongDavisDev/wings_of_faith_adventure/assets/151206744/2452ccae-28d4-4f6f-8544-5146306dfa57" align="left" width=30% height=30% ></a>
+
+## Contributing
+
 

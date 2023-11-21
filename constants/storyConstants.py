@@ -32,7 +32,7 @@ story_dict = {
         [10, 'Your anxiety escalates, and you struggle to find solace.', ipc.bg_5b]],\
 
     6: [ipc.bg_6, 'The distractions provide temporary relief, but as the flight progresses, a sense of emptiness creeps in.',\
-        [11, 'You reflect on the purpose of life.', ipc.bg_6a],\
+        [8, 'You reflect on the purpose of life.', ipc.bg_6a],\
         [12, 'You continue to immerse yourself in distractions without seeking deeper meaning.', ipc.bg_6b]],\
 
     7: [ipc.bg_7, 'You attend the church service with John, where the congregation radiates warmth and acceptance.',\

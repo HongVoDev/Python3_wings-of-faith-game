@@ -50,31 +50,6 @@ class TextEffect:
             x += bounds.width + space.width                        
         return x, y
     
-    def textHollow(self, message, fontcolor):
-        notcolor = [c^0xFF for c in fontcolor]
-        base = font.render(message, 0, fontcolor, notcolor)
-        size = base.get_width() + 2, base.get_height() + 2
-        img = pygame.Surface(size, 16)
-        img.fill(notcolor)
-        base.set_colorkey(0)
-        img.blit(base, (0, 0))
-        img.blit(base, (2, 0))
-        img.blit(base, (0, 2))
-        img.blit(base, (2, 2))
-        base.set_colorkey(0)
-        base.set_palette_at(1, notcolor)
-        img.blit(base, (1, 1))
-        img.set_colorkey(notcolor)
-        return img
-
-    def textOutline(self, message, fontcolor, outlinecolor):
-        base = font.render(message, 0, fontcolor)
-        outline = self.textHollow(message, outlinecolor)
-        img = pygame.Surface(outline.get_size(), 16)
-        img.blit(base, (1, 1))
-        img.blit(outline, (0, 0))
-        img.set_colorkey(0)
-        return img
     
     def ending_word_wrap(self, surf, text, x, y, color = (255, 255, 255)):
         font = pygame.freetype.SysFont(gc.MONOSPACE, gc.MONOSPACE_FONT_SIZE)
@@ -84,6 +59,7 @@ class TextEffect:
         line_spacing = font.get_sized_height() + 5
         x, y = x, y + line_spacing
         space = font.get_rect(' ')
+        myfont = pygame.font.SysFont(gc.MONOSPACE, gc.MONOSPACE_FONT_SIZE)
         for word in words:
             bounds = font.get_rect(word)
             if x + bounds.width + bounds.x >= width - 5:
@@ -92,9 +68,14 @@ class TextEffect:
                 raise ValueError("word too wide for the surface")
             if y + bounds.height - bounds.y >= height:
                 raise ValueError("text to long for the surface")
-            surf.blit(self.textOutline( word, (100, 100, 100), (255, 255, 255)), (x, y))
-            x += bounds.width + space.width
+            text_surface = myfont.render(word, True, gc.BLACK)      
+
+            text_rect = text_surface.get_rect()
+            text_rect= (x,y)
+            surf.blit(text_surface, text_rect)
+            pygame.display.flip()
             pygame.display.update()
+            x += bounds.width + space.width            
 
         return x, y
     

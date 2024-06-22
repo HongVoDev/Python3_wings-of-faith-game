@@ -48,10 +48,14 @@ class Scene:
                                     next_scene.display_scene(screen)
                                 else:
                                     screen.blit(next_chapter[0], (0, 0))
+                                    s = pygame.Surface((500,200))  # the size of your rect
+                                    s.set_alpha(220)                # alpha level
+                                    s.fill((255,255,255))           # this fills the entire surface
+                                    screen.blit(s, (0,150))
                                     ending_text = tx.Text(next_chapter[1], '', '')
                                     
                                     #screen.blit(ending_text.textDropShadow(next_chapter[1]), (5, 200))
-                                    ending_text.ending_word_wrap(screen, next_chapter[1], 10, 200)
+                                    ending_text.ending_word_wrap(screen, next_chapter[1], 10, 170)
                                     pygame.display.update()
                                     
         
